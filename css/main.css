@@ -1,0 +1,114 @@
+/*
+author : Isxoqjon Axmedov
+
+*/
+/*======================================================================
+Import Fonts
+========================================================================*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
+/*======================================================================
+Main changes
+========================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/*======================================================================
+Begin main css
+========================================================================*/
+section {
+  padding: 100px;
+}
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.banner h2 span {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.banner h3 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.btn-blue {
+  position: relative;
+  background: #2196f3;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-style: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2;
+  font-weight: normal;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 20px;
+}
+
+header .logo {
+  font-size: 2em;
+}
+/*# sourceMappingURL=main.css.map */
